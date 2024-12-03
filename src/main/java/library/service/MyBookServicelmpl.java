@@ -3,7 +3,6 @@ package library.service;
 import library.exception.MyBookNotFoundException;
 import library.model.Book;
 import library.model.MyBook;
-import library.repository.BookRepository;
 import library.repository.MyBookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;

@@ -73,42 +73,43 @@
                 <td th:text="'Saját könyveim száma: ' + ${myBookNum} + ' db'"></td>
             </tr>
         </table>
-</div>
+    </div>
 
-<div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0 shadow">
-            <div class="modal-header">
-                <h5 class="modal-title" id="addModalLabel">Hozzáadás megerősítése</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Biztosan hozzá szeretné adni ezt a könyvet a saját listájához?
-                <form id="addBookForm" method="POST" action="">
-                    <input type="hidden" name="bookId" id="bookId" value="" />
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary m-1" id="confirmAdd" onclick="submitAddForm()">Hozzáadás</button>
-                <button type="button" class="btn btn-secondary m-1" data-bs-dismiss="modal">Mégse</button>
+    <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addModalLabel">Hozzáadás megerősítése</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Biztosan hozzá szeretné adni ezt a könyvet a saját listájához?
+                    <form id="addBookForm" method="POST" action="">
+                        <input type="hidden" name="bookId" id="bookId" value="" />
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary m-1" id="confirmAdd" onclick="submitAddForm()">Hozzáadás</button>
+                    <button type="button" class="btn btn-secondary m-1" data-bs-dismiss="modal">Mégse</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0 shadow">
-            <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel">Törlés megerősítése</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Biztosan törölni szeretné ezt az elemet?
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger m-1" id="confirmDelete">Törlés</button>
-                <button type="button" class="btn btn-secondary m-1" data-bs-dismiss="modal">Mégse</button>
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Törlés megerősítése</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Biztosan törölni szeretné ezt az elemet?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger m-1" id="confirmDelete">Törlés</button>
+                    <button type="button" class="btn btn-secondary m-1" data-bs-dismiss="modal">Mégse</button>
+                </div>
             </div>
         </div>
     </div>
