@@ -23,3 +23,13 @@ Minden metódusra külön készült aspektus orientált loggolás is.
 ## Loggolás
 Az órán tanult módszert alkalmaztam a logok-hoz szükséges metódusok létrehozásában. Mivel ezen része a programnak a fejlesztés későbbi szakaszában lett implementálva, ezért megeshet, hogy nem minden eset van jelen a **logger.log** fájlban. A **logger_old.log** fájl tartalmaz olyan logokat, melyek a fejlesztés folyamata alatt kerültek bele. Látható például, hogy mikor adtam hibaüzenetet ahhoz az esethez amikor olyan könyvet szeretne a felhasználó hozzáadni a saját listához, mely már szerepel azon. 
 ## Kész program megjelenése
+### Főoldal
+![image](https://github.com/user-attachments/assets/bd7f83e2-0c91-4844-8f42-c672ab7d0bec)
+### Könyv hozzáadása
+![image](https://github.com/user-attachments/assets/f73eea6e-5475-4e82-923f-2b809cc8c286)
+### Saját könyveim
+![image](https://github.com/user-attachments/assets/0b1e9f62-9497-407e-aa37-cce41fee5ba2)
+### Nem elérhető könyvek
+![image](https://github.com/user-attachments/assets/70d3f329-666f-483e-9b11-efc2497a55e7)
+### Hibaoldal
+![image](https://github.com/user-attachments/assets/053ff5bf-96b1-42b3-ae2d-e2964d3f604e)
