@@ -17,7 +17,7 @@ A gombra kattintva megjelenik a törléshez hasonló módon megjelenik egy **meg
 * A törlés megerősítő ablakjának felépítését másoltam, majd egészítettem ki egy láthatatlan ```<form>``` mezővel, melyben megadtam a **POST** kéréshez szükséges könyv ID-ját.
 * Ezen könyv ID alapján a **Service** réteg megkeresi az adott könyvet és létrehozza a **MyBook** entitást. 
 ### Statisztika listázása
-A szükséges négy mezőhöz külön hoztam létre metódusokat, melyeket különálló ```model.addAttribute()``` segítségével állítottam be az **index.html** oldalon.
+A szükséges négy mezőhöz külön hoztam létre metódusokat, melyeket különálló ```model.addAttribute()``` segítségével állítottam be a Controller rétegben. Az **index.html** oldal meghívásával ezen értékek megjeleníthetőek az oldalon.
 
 Minden metódusra külön készült aspektus orientált loggolás is.
 ## Loggolás
