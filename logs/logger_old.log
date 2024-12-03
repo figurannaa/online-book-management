@@ -1,0 +1,336 @@
+2024-12-02 21:19:06.801 [http-nio-8080-exec-10] ERROR fileLogger - A következő mezők érvényesítése nem sikerült:
+* year (Hibás év: a 'year' mező nem lehet üres.)
+* title (Hibás cím: a 'title' mező nem lehet üres.)
+* price (Hibás ár: a 'price' mező nem lehet üres.)
+* author (Hibás író: a 'author' mező nem lehet üres.)
+2024-12-02 21:19:18.959 [http-nio-8080-exec-8] ERROR fileLogger - could not execute statement [Duplicate entry '1' for key 'my-books.UKt6s82h8q2w58snac5ubn74kix'] [insert into `my-books` (book_id) values (?)]; SQL [insert into `my-books` (book_id) values (?)]; constraint [my-books.UKt6s82h8q2w58snac5ubn74kix]
+2024-12-02 21:23:49.582 [http-nio-8080-exec-1] ERROR fileLogger - could not execute statement [Duplicate entry '1' for key 'my-books.UKt6s82h8q2w58snac5ubn74kix'] [insert into `my-books` (book_id) values (?)]; SQL [insert into `my-books` (book_id) values (?)]; constraint [my-books.UKt6s82h8q2w58snac5ubn74kix]
+2024-12-02 21:23:59.515 [http-nio-8080-exec-3] ERROR fileLogger - A következő mezők érvényesítése nem sikerült:
+* author (Hibás író: a 'author' mező nem lehet üres.)
+* title (Hibás cím: a 'title' mező nem lehet üres.)
+* price (Hibás ár: a 'price' mező nem lehet üres.)
+* year (Hibás év: a 'year' mező nem lehet üres.)
+2024-12-02 21:25:22.356 [http-nio-8080-exec-5] ERROR fileLogger - could not execute statement [Duplicate entry '1' for key 'my-books.UKt6s82h8q2w58snac5ubn74kix'] [insert into `my-books` (book_id) values (?)]; SQL [insert into `my-books` (book_id) values (?)]; constraint [my-books.UKt6s82h8q2w58snac5ubn74kix]
+2024-12-02 21:25:35.868 [http-nio-8080-exec-7] ERROR fileLogger - A következő mezők érvényesítése nem sikerült:
+* author (Hibás író: a 'author' mező nem lehet üres.)
+* title (Hibás cím: a 'title' mező nem lehet üres.)
+* price (Hibás ár: a 'price' mező nem lehet üres.)
+* year (Hibás év: a 'year' mező nem lehet üres.)
+2024-12-02 21:25:48.385 [http-nio-8080-exec-8] ERROR fileLogger - could not execute statement [Duplicate entry '1' for key 'my-books.UKt6s82h8q2w58snac5ubn74kix'] [insert into `my-books` (book_id) values (?)]; SQL [insert into `my-books` (book_id) values (?)]; constraint [my-books.UKt6s82h8q2w58snac5ubn74kix]
+2024-12-02 21:28:25.798 [http-nio-8080-exec-7] ERROR fileLogger - could not execute statement [Duplicate entry '1' for key 'my-books.UKt6s82h8q2w58snac5ubn74kix'] [insert into `my-books` (book_id) values (?)]; SQL [insert into `my-books` (book_id) values (?)]; constraint [my-books.UKt6s82h8q2w58snac5ubn74kix]
+2024-12-02 21:32:26.188 [http-nio-8080-exec-4] ERROR fileLogger - could not execute statement [Duplicate entry '1' for key 'my-books.UKt6s82h8q2w58snac5ubn74kix'] [insert into `my-books` (book_id) values (?)]; SQL [insert into `my-books` (book_id) values (?)]; constraint [my-books.UKt6s82h8q2w58snac5ubn74kix]
+2024-12-02 21:40:51.401 [http-nio-8080-exec-8] ERROR fileLogger - could not execute statement [Duplicate entry '1' for key 'my-books.UKt6s82h8q2w58snac5ubn74kix'] [insert into `my-books` (book_id) values (?)]; SQL [insert into `my-books` (book_id) values (?)]; constraint [my-books.UKt6s82h8q2w58snac5ubn74kix]
+2024-12-02 21:42:14.500 [http-nio-8080-exec-4] ERROR fileLogger - could not execute statement [Duplicate entry '1' for key 'my-books.UKt6s82h8q2w58snac5ubn74kix'] [insert into `my-books` (book_id) values (?)]; SQL [insert into `my-books` (book_id) values (?)]; constraint [my-books.UKt6s82h8q2w58snac5ubn74kix]
+2024-12-02 21:43:39.392 [http-nio-8080-exec-5] ERROR fileLogger - could not execute statement [Duplicate entry '1' for key 'my-books.UKt6s82h8q2w58snac5ubn74kix'] [insert into `my-books` (book_id) values (?)]; SQL [insert into `my-books` (book_id) values (?)]; constraint [my-books.UKt6s82h8q2w58snac5ubn74kix]
+2024-12-02 21:44:56.002 [http-nio-8080-exec-3] ERROR fileLogger - could not execute statement [Duplicate entry '1' for key 'my-books.UKt6s82h8q2w58snac5ubn74kix'] [insert into `my-books` (book_id) values (?)]; SQL [insert into `my-books` (book_id) values (?)]; constraint [my-books.UKt6s82h8q2w58snac5ubn74kix]
+2024-12-02 21:45:45.850 [http-nio-8080-exec-3] ERROR fileLogger - Ez a könyv már szerepel a listában.
+2024-12-03 15:04:06.615 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:04:06.710 [http-nio-8080-exec-1] INFO  fileLogger - Könyvek sikeresen lekérdezve. Az könyvek száma: 3.
+2024-12-03 15:04:06.711 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:04:06.723 [http-nio-8080-exec-1] INFO  fileLogger - Legdrágább könyv sikeresen lekérdezve: Kaka
+2024-12-03 15:04:06.723 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:04:06.729 [http-nio-8080-exec-1] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 2
+2024-12-03 15:04:06.729 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:04:06.732 [http-nio-8080-exec-1] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 1
+2024-12-03 15:04:06.732 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:04:06.749 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 2
+2024-12-03 15:04:06.749 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:04:06.753 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvek ID-jai sikeresen lekérdezve. ID-k száma: 2.
+2024-12-03 15:04:24.053 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getAllMyBooks - Az összes saját könyv lekérdezése elkezdődött.
+2024-12-03 15:04:24.076 [http-nio-8080-exec-2] INFO  fileLogger - Saját könyvek sikeresen lekérdezve. A saját könyvek száma: 2.
+2024-12-03 15:05:43.357 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:05:43.508 [http-nio-8080-exec-1] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:05:43.509 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:05:43.534 [http-nio-8080-exec-1] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:05:43.534 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:05:43.546 [http-nio-8080-exec-1] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:05:43.547 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:05:43.549 [http-nio-8080-exec-1] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:05:43.550 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:05:43.569 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:05:43.570 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:05:43.574 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:08:03.851 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:08:03.919 [http-nio-8080-exec-2] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:08:03.919 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:08:03.931 [http-nio-8080-exec-2] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:08:03.931 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:08:03.937 [http-nio-8080-exec-2] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:08:03.938 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:08:03.940 [http-nio-8080-exec-2] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:08:03.940 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:08:03.954 [http-nio-8080-exec-2] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:08:03.954 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:08:03.958 [http-nio-8080-exec-2] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:09:43.959 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:09:44.023 [http-nio-8080-exec-1] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:09:44.024 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:09:44.037 [http-nio-8080-exec-1] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:09:44.038 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:09:44.043 [http-nio-8080-exec-1] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:09:44.043 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:09:44.045 [http-nio-8080-exec-1] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:09:44.046 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:09:44.059 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:09:44.059 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:09:44.063 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:11:09.905 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:11:10.006 [http-nio-8080-exec-1] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:11:10.007 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:11:10.025 [http-nio-8080-exec-1] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:11:10.026 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:11:10.038 [http-nio-8080-exec-1] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:11:10.038 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:11:10.043 [http-nio-8080-exec-1] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:11:10.043 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:11:10.063 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:11:10.063 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:11:10.067 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:11:20.954 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllMyBooks - Az összes saját könyv lekérdezése elkezdődött.
+2024-12-03 15:11:20.967 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:11:26.005 [http-nio-8080-exec-6] INFO  fileLogger - Metódus meghívása: getNotAvailableBooks - A nem elérhető könyvek lekérdezése elkezdődött.
+2024-12-03 15:11:26.011 [http-nio-8080-exec-6] INFO  fileLogger - Az nem elérhető könyvek listája üres.
+2024-12-03 15:11:31.454 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:11:31.464 [http-nio-8080-exec-3] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:11:31.464 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:11:31.469 [http-nio-8080-exec-3] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:11:31.469 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:11:31.472 [http-nio-8080-exec-3] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:11:31.472 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:11:31.474 [http-nio-8080-exec-3] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:11:31.474 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:11:31.480 [http-nio-8080-exec-3] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:11:31.480 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:11:31.482 [http-nio-8080-exec-3] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:11:32.163 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getNotAvailableBooks - A nem elérhető könyvek lekérdezése elkezdődött.
+2024-12-03 15:11:32.167 [http-nio-8080-exec-2] INFO  fileLogger - Az nem elérhető könyvek listája üres.
+2024-12-03 15:11:34.816 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllMyBooks - Az összes saját könyv lekérdezése elkezdődött.
+2024-12-03 15:11:34.823 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:12:07.479 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:12:07.547 [http-nio-8080-exec-2] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:12:07.547 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:12:07.562 [http-nio-8080-exec-2] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:12:07.562 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:12:07.568 [http-nio-8080-exec-2] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:12:07.568 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:12:07.570 [http-nio-8080-exec-2] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:12:07.571 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:12:07.584 [http-nio-8080-exec-2] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:12:07.584 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:12:07.588 [http-nio-8080-exec-2] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:12:10.243 [http-nio-8080-exec-6] INFO  fileLogger - Metódus meghívása: getAllMyBooks - Az összes saját könyv lekérdezése elkezdődött.
+2024-12-03 15:12:10.253 [http-nio-8080-exec-6] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:12:11.367 [http-nio-8080-exec-9] INFO  fileLogger - Metódus meghívása: getNotAvailableBooks - A nem elérhető könyvek lekérdezése elkezdődött.
+2024-12-03 15:12:11.374 [http-nio-8080-exec-9] INFO  fileLogger - Az nem elérhető könyvek listája üres.
+2024-12-03 15:12:12.835 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:12:12.843 [http-nio-8080-exec-3] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:12:12.843 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:12:12.846 [http-nio-8080-exec-3] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:12:12.846 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:12:12.848 [http-nio-8080-exec-3] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:12:12.848 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:12:12.852 [http-nio-8080-exec-3] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:12:12.852 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:12:12.858 [http-nio-8080-exec-3] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:12:12.858 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:12:12.860 [http-nio-8080-exec-3] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:12:48.102 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getAllMyBooks - Az összes saját könyv lekérdezése elkezdődött.
+2024-12-03 15:12:48.109 [http-nio-8080-exec-8] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:14:19.843 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:19.930 [http-nio-8080-exec-1] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:14:19.931 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:19.945 [http-nio-8080-exec-1] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:14:19.945 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:19.951 [http-nio-8080-exec-1] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:14:19.952 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:19.955 [http-nio-8080-exec-1] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:14:19.955 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:14:19.972 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:14:19.973 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:14:19.978 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:14:21.294 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:21.301 [http-nio-8080-exec-10] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:14:21.301 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:21.302 [http-nio-8080-exec-10] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:14:21.302 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:21.304 [http-nio-8080-exec-10] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:14:21.305 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:21.306 [http-nio-8080-exec-10] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:14:21.306 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:14:21.311 [http-nio-8080-exec-10] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:14:21.311 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:14:21.313 [http-nio-8080-exec-10] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:14:46.213 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:46.281 [http-nio-8080-exec-1] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:14:46.281 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:46.295 [http-nio-8080-exec-1] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:14:46.296 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:46.302 [http-nio-8080-exec-1] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:14:46.302 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:46.305 [http-nio-8080-exec-1] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:14:46.305 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:14:46.319 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:14:46.319 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:14:46.322 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:14:47.848 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:47.855 [http-nio-8080-exec-2] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:14:47.855 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:47.857 [http-nio-8080-exec-2] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:14:47.857 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:47.859 [http-nio-8080-exec-2] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:14:47.859 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:14:47.861 [http-nio-8080-exec-2] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:14:47.861 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:14:47.865 [http-nio-8080-exec-2] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:14:47.866 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:14:47.867 [http-nio-8080-exec-2] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:17:09.134 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:17:09.199 [http-nio-8080-exec-3] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:17:09.200 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:17:09.211 [http-nio-8080-exec-3] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:17:09.211 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:17:09.216 [http-nio-8080-exec-3] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:17:09.216 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:17:09.218 [http-nio-8080-exec-3] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:17:09.218 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:17:09.233 [http-nio-8080-exec-3] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:17:09.233 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:17:09.236 [http-nio-8080-exec-3] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:17:27.593 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:17:27.669 [http-nio-8080-exec-1] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:17:27.669 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:17:27.682 [http-nio-8080-exec-1] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:17:27.682 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:17:27.688 [http-nio-8080-exec-1] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:17:27.688 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:17:27.691 [http-nio-8080-exec-1] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:17:27.691 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:17:27.707 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:17:27.708 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:17:27.711 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:19:02.721 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:19:02.833 [http-nio-8080-exec-2] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:19:02.833 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:19:02.851 [http-nio-8080-exec-2] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:19:02.851 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:19:02.859 [http-nio-8080-exec-2] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:19:02.859 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:19:02.862 [http-nio-8080-exec-2] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:19:02.862 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:19:02.889 [http-nio-8080-exec-2] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:19:02.890 [http-nio-8080-exec-2] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:19:02.896 [http-nio-8080-exec-2] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:19:04.826 [http-nio-8080-exec-4] INFO  fileLogger - Metódus meghívása: getAllMyBooks - Az összes saját könyv lekérdezése elkezdődött.
+2024-12-03 15:19:04.838 [http-nio-8080-exec-4] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:19:06.202 [http-nio-8080-exec-7] INFO  fileLogger - Metódus meghívása: getNotAvailableBooks - A nem elérhető könyvek lekérdezése elkezdődött.
+2024-12-03 15:19:06.208 [http-nio-8080-exec-7] INFO  fileLogger - Az nem elérhető könyvek listája üres.
+2024-12-03 15:19:08.210 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:19:08.218 [http-nio-8080-exec-1] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:19:08.219 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:19:08.222 [http-nio-8080-exec-1] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:19:08.223 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:19:08.225 [http-nio-8080-exec-1] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:19:08.226 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:19:08.228 [http-nio-8080-exec-1] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:19:08.229 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:19:08.236 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:19:08.236 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:19:08.238 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:22:07.061 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllMyBooks - Az összes saját könyv lekérdezése elkezdődött.
+2024-12-03 15:22:07.215 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:22:09.466 [http-nio-8080-exec-4] INFO  fileLogger - Metódus meghívása: getNotAvailableBooks - A nem elérhető könyvek lekérdezése elkezdődött.
+2024-12-03 15:22:09.483 [http-nio-8080-exec-4] INFO  fileLogger - Az nem elérhető könyvek listája üres.
+2024-12-03 15:22:15.120 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:22:15.129 [http-nio-8080-exec-8] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:22:15.129 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:22:15.134 [http-nio-8080-exec-8] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:22:15.134 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:22:15.143 [http-nio-8080-exec-8] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:22:15.144 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:22:15.147 [http-nio-8080-exec-8] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:22:15.147 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:22:15.170 [http-nio-8080-exec-8] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:22:15.171 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:22:15.178 [http-nio-8080-exec-8] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:24:18.700 [http-nio-8080-exec-3] INFO  fileLogger - Metódus meghívása: createBook - Létrehozandó könyv adatai: Cím: 'Vigyázzatok ​Anyára!', Szerző: 'Kyung-sook Shin', Kiadási év: '2011', Ár (Ft): '2939', Elérhető?: 'true'
+2024-12-03 15:24:18.827 [http-nio-8080-exec-3] INFO  fileLogger - Könyv sikeresen mentve. A létrehozott könyv: ID=1, 'Vigyázzatok ​Anyára! Kyung-sook Shin (2011) 2939Ft true'
+2024-12-03 15:24:31.327 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:24:31.342 [http-nio-8080-exec-8] INFO  fileLogger - Könyvek sikeresen lekérdezve. Az könyvek száma: 1.
+2024-12-03 15:24:31.343 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:24:31.346 [http-nio-8080-exec-8] INFO  fileLogger - Legdrágább könyv sikeresen lekérdezve: Vigyázzatok ​Anyára!
+2024-12-03 15:24:31.346 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:24:31.349 [http-nio-8080-exec-8] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 1
+2024-12-03 15:24:31.349 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:24:31.352 [http-nio-8080-exec-8] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:24:31.352 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:24:31.360 [http-nio-8080-exec-8] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:24:31.360 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:24:31.363 [http-nio-8080-exec-8] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:32:48.416 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:32:48.549 [http-nio-8080-exec-1] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:32:48.551 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:32:48.579 [http-nio-8080-exec-1] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:32:48.579 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:32:48.590 [http-nio-8080-exec-1] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:32:48.591 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:32:48.595 [http-nio-8080-exec-1] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:32:48.595 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:32:48.615 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:32:48.616 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:32:48.625 [http-nio-8080-exec-1] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:33:03.120 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: createBook - Létrehozandó könyv adatai: Cím: 'gds', Szerző: 'dfss', Kiadási év: '199', Ár (Ft): '10', Elérhető?: 'false'
+2024-12-03 15:33:03.210 [http-nio-8080-exec-8] INFO  fileLogger - Könyv sikeresen mentve. A létrehozott könyv: ID=1, 'gds dfss (199) 10Ft false'
+2024-12-03 15:33:03.234 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:03.246 [http-nio-8080-exec-10] INFO  fileLogger - Könyvek sikeresen lekérdezve. Az könyvek száma: 1.
+2024-12-03 15:33:03.246 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:03.250 [http-nio-8080-exec-10] INFO  fileLogger - Legdrágább könyv sikeresen lekérdezve: gds
+2024-12-03 15:33:03.250 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:03.253 [http-nio-8080-exec-10] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:33:03.253 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:03.256 [http-nio-8080-exec-10] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 1
+2024-12-03 15:33:03.256 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:33:03.263 [http-nio-8080-exec-10] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:33:03.263 [http-nio-8080-exec-10] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:33:03.266 [http-nio-8080-exec-10] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:33:13.287 [http-nio-8080-exec-6] INFO  fileLogger - Metódus meghívása: deleteBook - Az ID=1 könyv ('gds dfss, 199, 10Ft, false') törlése elkezdődött.
+2024-12-03 15:33:13.317 [http-nio-8080-exec-6] INFO  fileLogger - Az ID=1 könyv eltávolítva.
+2024-12-03 15:33:13.325 [http-nio-8080-exec-5] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:13.331 [http-nio-8080-exec-5] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:33:13.331 [http-nio-8080-exec-5] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:13.333 [http-nio-8080-exec-5] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:33:13.334 [http-nio-8080-exec-5] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:13.336 [http-nio-8080-exec-5] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:33:13.337 [http-nio-8080-exec-5] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:13.340 [http-nio-8080-exec-5] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:33:13.340 [http-nio-8080-exec-5] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:33:13.348 [http-nio-8080-exec-5] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:33:13.348 [http-nio-8080-exec-5] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:33:13.352 [http-nio-8080-exec-5] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:33:20.387 [http-nio-8080-exec-1] INFO  fileLogger - Metódus meghívása: createBook - Létrehozandó könyv adatai: Cím: 'rhedhtdh', Szerző: 'rdhdrdh', Kiadási év: '123', Ár (Ft): '12555', Elérhető?: 'true'
+2024-12-03 15:33:20.399 [http-nio-8080-exec-1] INFO  fileLogger - Könyv sikeresen mentve. A létrehozott könyv: ID=2, 'rhedhtdh rdhdrdh (123) 12555Ft true'
+2024-12-03 15:33:20.409 [http-nio-8080-exec-4] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:20.416 [http-nio-8080-exec-4] INFO  fileLogger - Könyvek sikeresen lekérdezve. Az könyvek száma: 1.
+2024-12-03 15:33:20.416 [http-nio-8080-exec-4] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:20.419 [http-nio-8080-exec-4] INFO  fileLogger - Legdrágább könyv sikeresen lekérdezve: rhedhtdh
+2024-12-03 15:33:20.419 [http-nio-8080-exec-4] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:20.422 [http-nio-8080-exec-4] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 1
+2024-12-03 15:33:20.422 [http-nio-8080-exec-4] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:20.424 [http-nio-8080-exec-4] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:33:20.425 [http-nio-8080-exec-4] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:33:20.430 [http-nio-8080-exec-4] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:33:20.430 [http-nio-8080-exec-4] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:33:20.433 [http-nio-8080-exec-4] INFO  fileLogger - Saját könyvlista üres.
+2024-12-03 15:33:22.972 [http-nio-8080-exec-9] INFO  fileLogger - Metódus meghívása: deleteBook - Az ID=2 könyv ('rhedhtdh rdhdrdh, 123, 12555Ft, true') törlése elkezdődött.
+2024-12-03 15:33:22.983 [http-nio-8080-exec-9] INFO  fileLogger - Az ID=2 könyv eltávolítva.
+2024-12-03 15:33:22.987 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getAllBooks - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:22.991 [http-nio-8080-exec-8] INFO  fileLogger - Az könyvlista üres.
+2024-12-03 15:33:22.991 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getMostExpensiveBook - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:22.993 [http-nio-8080-exec-8] INFO  fileLogger - Nem létezik legdrágább könyv.
+2024-12-03 15:33:22.993 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getAvailableBooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:22.994 [http-nio-8080-exec-8] INFO  fileLogger - Elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:33:22.995 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getNABooksCount - Az összes könyv lekérdezése elkezdődött.
+2024-12-03 15:33:22.996 [http-nio-8080-exec-8] INFO  fileLogger - Nem elérhető könyvek száma sikeresen lekérdezve: 0
+2024-12-03 15:33:22.996 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getNumberOfMyBooks - A saját lista hosszának lekérdezése elkezdődött.
+2024-12-03 15:33:22.999 [http-nio-8080-exec-8] INFO  fileLogger - Saját könyvek hossza sikeresen lekérdezve: 0
+2024-12-03 15:33:22.999 [http-nio-8080-exec-8] INFO  fileLogger - Metódus meghívása: getMyBookIds - Az összes saját könyv ID-nak lekérdezése elkezdődött.
+2024-12-03 15:33:23.000 [http-nio-8080-exec-8] INFO  fileLogger - Saját könyvlista üres.

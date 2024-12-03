@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Könyvkezelő Rendszer</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+</head>
+<body>
+<div class="container my-5">
+    <h1 class="text-center">Online Könyvkezelő Rendszer</h1>
+    <div class="text-center">
+        <a th:href="@{/}" class="btn btn-primary" role="button">Főoldal</a>
+        <a th:href="@{/new-book}" class="btn btn-warning" role="button">Könyv Létrehozása</a>
+        <a th:href="@{/my-books}" class="btn btn-info" role="button">Könyveim</a>
+        <a th:href="@{/books-not-available}" class="btn btn-dark" role="button">Nem elérhető könyvek</a>
+    </div>
+    <div class="alert alert-danger text-center" th:if="${errorMessage}">
+        <p class="lead mb-0" th:utext="${errorMessage}"></p>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-xl-8">
+            <div class="container">
+                <form class="text-bg-light border border-1 p-4 rounded-3 shadow-sm mt-5" method="post"
+                      th:action="@{/saveBook}" th:object="${book}">
+                    <input type="hidden" th:field="*{id}" th:if="*{id} ?: false">
+                    <div class="row justify-content-center gy-3">
+                        <div class="col-12 col-md-10 d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center">
+                            <h3 class="text-center text-md-start mb-md-0" th:text="(${id} != null ? 'ID=' + ${id} + ' könyv szerkesztése' : 'Könyv létrehozása')"></h3>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control shadow-none" id="title" placeholder="Cím"
+                                       th:classappend="${#fields.hasErrors('title')} ? 'border-danger' : ''" th:field="*{title}">
+                                <label for="title" class="form-label">Cím</label>
+                            </div>
+                            <div class="badge text-bg-danger" th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control shadow-none" id="author" placeholder="Szerző"
+                                       th:classappend="${#fields.hasErrors('author')} ? 'border-danger' : ''" th:field="*{author}">
+                                <label for="author" class="form-label">Szerző</label>
+                            </div>
+                            <div class="badge text-bg-danger" th:if="${#fields.hasErrors('author')}" th:errors="*{author}"></div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control shadow-none" id="year" placeholder="Kiadási év"
+                                       th:classappend="${#fields.hasErrors('year')} ? 'border-danger' : ''" th:field="*{year}">
+                                <label for="year" class="form-label">Kiadási év</label>
+                            </div>
+                            <div class="badge text-bg-danger" th:if="${#fields.hasErrors('year')}" th:errors="*{year}"></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control shadow-none" id="price" placeholder="Ár (Ft)"
+                                       th:classappend="${#fields.hasErrors('price')} ? 'border-danger' : ''" th:field="*{price}">
+                                <label for="price" class="form-label">Ár (Ft)</label>
+                            </div>
+                            <div class="badge text-bg-danger" th:if="${#fields.hasErrors('price')}" th:errors="*{price}"></div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <div class="form-check form-switch d-flex justify-content-center align-items-center gap-2">
+                                <input class="form-check-input" type="checkbox" id="available"
+                                       th:classappend="${#fields.hasErrors('available')} ? 'border-danger' : ''" th:field="*{available}">
+                                <label class="form-check-label" for="available">Elérhető?</label>
+                            </div>
+                            <div class="badge text-bg-danger" th:if="${#fields.hasErrors('available')}" th:errors="*{available}"></div>
+                        </div>
+                        <div class="col-12 col-md-10 text-center">
+                            <button type="submit" class="btn btn-danger">Mentés</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>
