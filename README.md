@@ -13,7 +13,7 @@ A fejlesztés alatt igyekeztem az órán elkészített CarBasicAPI felépítés�
 ### Könyv hozzáadása a saját könyveim listához
 **Hozzáadás** esetén egy **MyBook** entitást hoz létre a program, mely tartalmaz egy ID-t és az adott könyvet.
 
-A gombra kattintva megjelenik a törléshez hasonló módon megjelenik egy **megerősítő fül**. Ennek elfogadása után kerül csak hozzá a saját listához adáshoz.
+A gombra kattintva megjelenik a törléshez hasonló módon egy **megerősítő fül**. Ennek elfogadása után kerül csak hozzá a saját listához az adott könyv.
 * A törlés megerősítő ablakjának felépítését másoltam, majd egészítettem ki egy láthatatlan ```<form>``` mezővel, melyben megadtam a **POST** kéréshez szükséges könyv ID-ját.
 * Ezen könyv ID alapján a **Service** réteg megkeresi az adott könyvet és létrehozza a **MyBook** entitást. 
 ### Statisztika listázása
